@@ -6,6 +6,7 @@ For running this app in your system, you will be needing:
 Mongodb and Node in your system.
 
 For Installing the project you can start by :
+Initalizing Variables in env
 npm init
 npm start
 
