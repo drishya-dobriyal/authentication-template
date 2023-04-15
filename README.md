@@ -15,7 +15,7 @@ npm start
 * EJS, CSS for frontend
 
 ## Folder Structure
-* index.js - Folder for entry point for the project
+* index.js - entry point for the project
 * .env - Folder for environement variables
 * views - Folder for Layout and ejs template
 * routes - Folder for Router assignment for each handler
