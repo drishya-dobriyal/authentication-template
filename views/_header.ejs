@@ -1,0 +1,17 @@
+<header id="layout-header">
+  <div id="header-heading">
+    <% if(locals.user){ %>
+    <h1><%= user.name %></h1>
+    <% } else { %>
+    <h1>App Name</h1>
+    <% } %>
+  </div>
+
+  <div id="header-navigation">
+    <% if(locals.user) { %>
+    <a href="/">Home</a>
+    <a href="/users/sign-out">Sign-Out</a>
+    <a href="/users/reset-password">Reset password</a>
+    <% } %>
+  </div>
+</header>

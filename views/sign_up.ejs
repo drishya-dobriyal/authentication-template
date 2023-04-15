@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/form.css" />
+<section id="form-container">
+  <section id="form-heading">
+    <h1>Sign Up</h1>
+    <% if(locals.error_message && locals.error_message.length > 0) { %>
+    <div id="show-error-msg"><%= locals.error_message %></div>
+    <% } %>
+  </section>
+  <section id="form-input">
+    <form action="/users/create" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input
+        type="password"
+        name="confirm_password"
+        placeholder="Confirm Password"
+        required
+      />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </section>
+  <section id="navigation">
+    <div><a href="/users/sign-in">Sign-in</a></div>
+    <div><a href="/users/auth/google">Google Sign-up</a></div>
+  </section>
+</section>
