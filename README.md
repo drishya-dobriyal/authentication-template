@@ -7,7 +7,7 @@ Mongodb and Node in your system.
 
 For Installing the project you can start by :
 Initalizing Variables in env
-npm init
+npm install
 npm start
 run it in browser using "http://localhost:8000/"
 
