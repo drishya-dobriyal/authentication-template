@@ -9,6 +9,7 @@ For Installing the project you can start by :
 Initalizing Variables in env
 npm init
 npm start
+run it in browser using "http://localhost:8000/"
 
 ## Technologies used:
 * Node js for backend
